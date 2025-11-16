@@ -22,7 +22,7 @@ namespace Recipe_Managing_Project_DskApp.DB
 
         public void read(string path)
         {
-            xmlDoc.Load(path);
+             xmlDoc.Load(path);
             var element = xmlDoc.DocumentElement;
             var root = element.ChildNodes[0];
             List<Ingredient> ingredients = new List<Ingredient>();
