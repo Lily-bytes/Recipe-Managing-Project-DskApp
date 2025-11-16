@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using static Recipe_Managing_Project_DskApp.DB.recipe;
 
-namespace xmlProj.DB
+namespace Recipe_Managing_Project_DskApp.DB
 {
     internal class fileWrite
     {
+      
          
         XmlDocument xmlDoc;
         

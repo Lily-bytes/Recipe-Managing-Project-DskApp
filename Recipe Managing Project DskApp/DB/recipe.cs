@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace xmlProj.DB
+namespace Recipe_Managing_Project_DskApp.DB
 {
     internal class recipe
     {
@@ -17,8 +17,7 @@ namespace xmlProj.DB
                 name = _Name;
                 complexity = _Complexity;
             }
-            // null method for declarations before value
-            public Name() { }
+
         }
         public struct Restrictions
         {
@@ -31,7 +30,6 @@ namespace xmlProj.DB
                 seafood = Convert.ToBoolean(_Seafood);
 
             }
-            public Restrictions() { }
 
         }
         public struct Ingredient
