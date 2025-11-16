@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- this is just here, i do not have a backup method-->
+<recipes>
+	<recipe>
+		<name complexity="easy">Peanut Butter and Jelly </name>
+		<restrictions meat="false" seafood="false">
+		</restrictions>
+		<ingredient name="jelly" quantity="1" unit="Spread">
+		</ingredient>
+		<ingredient name="Peanut Butter" quantity="1" unit="Spread">
+		</ingredient>
+		<ingredient name="Bread" quantity="2" unit="Slices">
+		</ingredient>
+	</recipe>
+</recipes>
